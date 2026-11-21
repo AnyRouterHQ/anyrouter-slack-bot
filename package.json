@@ -1,0 +1,19 @@
+{
+  "name": "anyrouter-slack-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo Slack bot that answers through AnyRouter",
+  "main": "./src/app.mjs",
+  "scripts": {
+    "start": "node src/app.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": ["anyrouter", "slack", "bot", "demo", "openai-compatible"],
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
